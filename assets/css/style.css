@@ -23,6 +23,17 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+}
+
 img {
   width: 100%;
   vertical-align: middle;
@@ -199,9 +210,11 @@ ul {
   font-size: 12px;
   line-height: 14px;
 }
-.header-cart p{
+
+.header-cart p {
   font-size: 24px;
 }
+
 .signin-icon p {
   font-size: 15px;
   line-height: 16px;
@@ -237,7 +250,7 @@ ul {
 .nav-btns {
   cursor: pointer;
   color: var(--white);
-  /* display: block; */
+  padding: 5px;
 }
 
 .navbar,
@@ -302,11 +315,7 @@ ul {
 }
 
 
-.header-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 
 
 

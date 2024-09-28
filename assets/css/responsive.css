@@ -68,6 +68,7 @@
 
   .header-bottom {
     background: transparent;
+    visibility: hidden;
   }
   .header-logo{
     width: 20%;
@@ -80,5 +81,10 @@
   }
   .header-bottom-left {
     visibility: hidden;
+  }
+  .header-right {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
